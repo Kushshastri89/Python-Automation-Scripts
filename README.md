@@ -1,5 +1,3 @@
-
-
 # 🐍 Python Automation Projects
 
 A collection of beginner-friendly Python automation scripts to improve productivity and explore Python skills.
@@ -29,13 +27,9 @@ Automatically organizes files in a specified folder based on their extensions.
 
 ### 🚀 How to Run
 
-1. Make sure Python is installed.
-2. Run the script:
-
-   ```bash
-   python file_organizer.py
-   ```
-3. Input the path of the folder you want to organize.
+```bash
+python file_organizer.py
+```
 
 ---
 
@@ -51,8 +45,6 @@ Fetches and displays a short summary of any topic from Wikipedia.
 
 ### 🛠 Requirements
 
-Install the `wikipedia` package (if not already installed):
-
 ```bash
 pip install wikipedia
 ```
@@ -63,19 +55,59 @@ pip install wikipedia
 python wikipedia_summary.py
 ```
 
-Then follow the prompts to enter a topic and number of sentences.
+---
+
+## 📊 Project 3: CSV to Excel Converter
+
+Converts a CSV file into a formatted Excel (.xlsx) file.
+
+### ✅ Features
+
+* Simple interface for conversion.
+* Adds basic formatting to Excel output.
+* Great for data cleanup and reports.
+
+### 🚀 How to Run
+
+```bash
+python csv_to_excel.py
+```
 
 ---
 
-## 🧠 Why These Projects?
+## 📝 Project 4: To-Do List App
 
-These projects are great for:
+A simple command-line to-do list for tracking daily tasks.
 
-* Practicing basic Python syntax and logic
-* Learning how to work with modules (`os`, `shutil`, `wikipedia`)
-* Building useful tools you can actually use
+### ✅ Features
+
+* Add, view, and delete tasks.
+* Saves tasks between sessions using a text file or JSON.
+* Lightweight and fast.
+
+### 🚀 How to Run
+
+```bash
+python todo_list.py
+```
 
 ---
+
+## ⏰ Project 5: Automatic Shutdown Scheduler
+
+Schedules a system shutdown after a set time.
+
+### ✅ Features
+
+* Input time in minutes/hours.
+* Cancels shutdown if needed.
+* Works on Windows with `shutdown` command.
+
+### 🚀 How to Run
+
+```bash
+python shutdown.py
+```
 
 ## 📂 Folder Structure (Recommended)
 
@@ -83,8 +115,7 @@ These projects are great for:
 Python-Assignments/
 ├── file_organizer.py
 ├── wikipedia_summary.py
+├── csv_to_excel.py
+├── todo_list.py
+├── auto_shutdown.py
 └── README.md
-```
-
----
-
