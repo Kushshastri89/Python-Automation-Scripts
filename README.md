@@ -57,51 +57,113 @@ python wikipedia_summary.py
 
 ---
 
-## 📊 Project 3: CSV to Excel Converter
+Here's a continuation of your `README.md` in the **same style**, covering the **rest of your Python projects** listed in the image:
 
-Converts a CSV file into a formatted Excel (.xlsx) file.
+---
+
+## ⏰ Project 3: Digital Clock
+
+A simple digital clock application using `tkinter`.
 
 ### ✅ Features
 
-* Simple interface for conversion.
-* Adds basic formatting to Excel output.
-* Great for data cleanup and reports.
+* Displays real-time clock in a GUI window
+* Refreshes every second
+* Can be used as a desktop widget
 
 ### 🚀 How to Run
 
 ```bash
-python csv_to_excel.py
+python Digital_clock.py
 ```
 
 ---
 
-## 📝 Project 4: To-Do List App
+## ⏳ Project 4: Pomodoro Timer
 
-A simple command-line to-do list for tracking daily tasks.
+Boost productivity using the Pomodoro technique—work in focused intervals with short breaks.
 
 ### ✅ Features
 
-* Add, view, and delete tasks.
-* Saves tasks between sessions using a text file or JSON.
-* Lightweight and fast.
+* Customizable work/break durations
+* Desktop-based timer using `tkinter`
+* Alerts after each session
 
 ### 🚀 How to Run
 
 ```bash
-python todo_list.py
+python Pomodoro.py
 ```
 
 ---
 
-## ⏰ Project 5: Automatic Shutdown Scheduler
+## 📑 Project 5: Markdown Editor
 
-Schedules a system shutdown after a set time.
+A basic markdown editor for writing `.md` files.
 
 ### ✅ Features
 
-* Input time in minutes/hours.
-* Cancels shutdown if needed.
-* Works on Windows with `shutdown` command.
+* GUI interface for writing and saving markdown
+* Live editing and save functionality
+
+### 🚀 How to Run
+
+```bash
+python markdowneditor.py
+```
+
+---
+
+## 📋 Project 6: To-Do List App
+
+Track your daily tasks and mark them as complete.
+
+### ✅ Features
+
+* Add, remove, and mark tasks
+* Simple GUI with persistent state (optional)
+
+### 🚀 How to Run
+
+```bash
+python todolist.py
+```
+
+---
+
+## 💻 Project 7: Welcome Apps Launcher
+
+Automatically opens favorite apps and websites when Windows starts and shows a welcome popup.
+
+### ✅ Features
+
+* Displays a “Welcome!” popup
+* Opens YouTube Music in Edge
+* Launches VS Code
+
+### 🚀 How to Run
+
+```bash
+python welcomeapps.py
+```
+
+📌 To make it run at login, create a shortcut and place it in:
+
+```
+C:\Users\<YourUsername>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+```
+
+---
+
+## 🔌 Project 8: System Shutdown Scheduler
+
+Schedules system shutdown, restart, or logout using a Python GUI.
+
+### ✅ Features
+
+* Choose action: Shutdown, Restart, or Logout
+* Set a timer in minutes
+* Cancel the action anytime
 
 ### 🚀 How to Run
 
@@ -109,13 +171,53 @@ Schedules a system shutdown after a set time.
 python shutdown.py
 ```
 
-## 📂 Folder Structure (Recommended)
+---
+
+## 📊 Project 9: CSV & Excel Utility
+
+Handles basic CSV and Excel file operations.
+
+### ✅ Features
+
+* Read/write CSV files
+* Read Excel files using `pandas`
+
+### 🛠 Requirements
+
+```bash
+pip install pandas openpyxl
+```
+
+### 🚀 How to Run
+
+```bash
+python csv_excel.py
+```
+
+---
+
+## 🧠 Why These Projects?
+
+These tools are beginner-friendly and teach:
+
+* GUI programming with `tkinter`
+* File handling, web automation, API usage
+* Real-world use of Python modules like `os`, `pandas`, `wikipedia`, and `subprocess`
+
+---
+
+## 📂 Folder Structure (Expanded)
 
 ```
 Python-Assignments/
+├── Digital_clock.py
+├── Pomodoro.py
+├── csv_excel.py
 ├── file_organizer.py
+├── markdowneditor.py
+├── shutdown.py
+├── todolist.py
+├── welcomeapps.py
 ├── wikipedia_summary.py
-├── csv_to_excel.py
-├── todo_list.py
-├── auto_shutdown.py
 └── README.md
+```
